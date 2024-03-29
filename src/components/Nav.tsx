@@ -1,7 +1,7 @@
 import { Link, Outlet, useMatch, useResolvedPath } from "react-router-dom";
-import logo from "../assets/shared/logo.svg";
-import menu from "../assets/shared/icon-hamburger.svg";
-import close from "../assets/shared/icon-close.svg";
+import logo from "../../public/assets/shared/logo.svg";
+import menu from "../../public/assets/shared/icon-hamburger.svg";
+import close from "../../public/assets/shared/icon-close.svg";
 import { useState } from "react";
 
 type navLinksType = {
